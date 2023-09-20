@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Playfair+Display:wght@500&display=swap');
+body{
+    background-image: linear-gradient(#5776ff, #067c91);
+}
+.logo{
+    width: 50px;
+}
+.title{
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    margin-left: 20px;
+    flex-basis: 46%;
+    margin: auto;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 600;
+}
+h2{
+    font-family: 'Croissant One', cursive;
+}
+h3{
+    font-size: 1.5em;
+    font-family: 'Croissant One', cursive;
+    font-weight: 800;
+}
+.test{
+    position: absolute;
+    bottom: 0%;
+}
+@media screen and (min-width:700px){
+    .content{
+        flex-basis: 31%;
+    }
+}
